@@ -1,0 +1,105 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f2937;
+    color: white;
+    padding-top: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    /* margin-left: auto; */
+    gap: 16px;
+}
+
+
+.top-section{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    background-color: #1f2937;
+    color: white;
+}
+
+.left-section, .right-section{
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+
+.right-section{
+    display: flex;
+    width: 475px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: gray;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle-section{
+    
+}
+
+.information{
+    text-align: center;
+    margin: 50px 0 50px;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+
+.box-one, .box-two, .box-three, .box-four{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.image-text{
+    text-align: center;
+}
+
+.box-item-wrapper {
+    display: flex;
+    flex-direction: column; /* Stack box and text vertically */
+    align-items: center; /* Center box and text horizontally within the wrapper */
+    width: 150px; /* Set width on the wrapper if all items are same width */
+}
+
+.quote-section{
+    background: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    padding: 150px;
+}
+
+.quote{
+    font-size: 36px;
+    width: 810px;
+    font-weight: 100;
+    font-style: italic;
+    margin: 0;
+}
+
+.quote-author {
+    display: flex;
+    justify-content: flex-end;
+}
